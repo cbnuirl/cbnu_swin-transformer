@@ -8,7 +8,7 @@ This repository is based on [Swin-Transformer-Object-Detection](https://github.c
 
 | Dataset | Lr Schd(Epoch) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: |
-| Daegu | 36 | [config] | [log] | [model] |
+| Daegu | 36 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_Adamw_3x_morai_daegu.py) | [log] | [model] |
 
 ### RepPoints V2
 
