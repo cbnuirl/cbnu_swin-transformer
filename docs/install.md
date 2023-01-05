@@ -156,9 +156,8 @@ data = dict(
 
 Mixed training data should be distributed like:
 ```
-Swin-Transformer-Object-Detection
-└data
-	└(데이터명)/
+data
+	└(DATA_NAME)/
 		├real/
 		│	├annotations/
 		│	├train/
