@@ -8,7 +8,18 @@ This repository is based on [Swin-Transformer-Object-Detection](https://github.c
 
 | Dataset | Lr Schd(Epoch) | box AP(vehicle) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| Daegu | 36 | 68.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py) | [log](https://drive.google.com/file/d/15eQNQVo6GkVEQruNnyGUa1vfqzQ_HPZX/view?usp=share_link) | [model] |
+| Real | 36 | 85.8 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_real.py) | [log](https://drive.google.com/file/d/15eQNQVo6GkVEQruNnyGUa1vfqzQ_HPZX/view?usp=share_link) | [model] |
+| Daegu | 36 | 68.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py) | [log](https://drive.google.com/file/d/1tYdIgFhjfbFgy4Hkm6ARBoFODyri2QdL/view?usp=share_link) | [model] |
+| Sejong BRT 1 | 36 | 70.5 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1.py) | [log](https://drive.google.com/file/d/1w5hY-Gnq1xZFZPMTlxndfBPVBMTM31jX/view?usp=share_link) | [model] |
+| Sangam Edge | 36 | 71.1 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sangam_edge.py) | [log](https://drive.google.com/file/d/1ZcHoSe4LyJZKgbCYGTfwSdYx8UtL9OTt/view?usp=share_link) | [model] |
+| Sejong BRT 1 Edge | 36 | 69.6 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_edge.py) | [log](https://drive.google.com/file/d/1V_931i0cTPIEAzVbcclSJAqVWg_fREvB/view?usp=share_link) | [model] |
+
+Mixed Models(10% real + 90% synthetic)
+
+| Dataset | Lr Schd(Epoch) | Real test-set box AP(vehicle) | config | log | model |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Sejong BRT 1 | 36 | 71.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_mix.py) | [log]() | [model] |
+| Sejong BRT 1 Edge | 36 | 64.8 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_edge_mix.py) | [log]() | [model] |
 
 ### RepPoints V2
 
