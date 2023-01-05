@@ -25,7 +25,7 @@ Mixed Models(10% real + 90% synthetic)
 
 ### Installation
 
-Please refer to [install.md] for installation, dataset preparation and making configuration file.
+Please refer to [install.md](docs/install.md) for installation, dataset preparation and making configuration file.
 
 ### Testing, Demo
 ```
