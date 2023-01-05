@@ -1,12 +1,6 @@
-# Swin Transformer for Object Detection
+# 2D Object Detection with Swin Transformer in MORAI dataset
 
-This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection).
-
-## Updates
-
-***05/11/2021*** Models for [MoBY](https://github.com/SwinTransformer/Transformer-SSL) are released
-
-***04/12/2021*** Initial commits
+This repository is based on [Swin-Transformer-Object-Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection) and [mmdetection](https://github.com/open-mmlab/mmdetection). All configurations and codes were revised for MORAI dataset. 
 
 ## Results and Models
 
