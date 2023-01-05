@@ -6,9 +6,9 @@ This repository is based on [Swin-Transformer-Object-Detection](https://github.c
 
 ### Swin-L + FPN + Cascade R-CNN
 
-| Dataset | Lr Schd(Epoch) | config | log | model |
-| :---: | :---: | :---: | :---: | :---: |
-| Daegu | 36 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py) | [log] | [model] |
+| Dataset | Lr Schd(Epoch) | box AP(vehicle) | config | log | model |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Daegu | 36 | 68.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py) | [log](https://drive.google.com/file/d/15eQNQVo6GkVEQruNnyGUa1vfqzQ_HPZX/view?usp=share_link) | [model] |
 
 ### RepPoints V2
 
