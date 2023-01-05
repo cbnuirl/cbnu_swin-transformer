@@ -1,4 +1,4 @@
-# 2D Object Detection with Swin Transformer in MORAI dataset
+# 2D Object Detection with Swin Transformer on MORAI dataset
 
 This repository is based on [Swin-Transformer-Object-Detection](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection) and [mmdetection](https://github.com/open-mmlab/mmdetection). All configurations and codes were revised for MORAI dataset. 
 
@@ -34,8 +34,7 @@ Sejong BRT 1 Edge:
 
 ![image](https://user-images.githubusercontent.com/121915405/210734349-81347c31-8768-41ab-9f43-f871e9993953.png)
 
-
-Mixed Models(10% real + 90% synthetic)
+### Mixed Models(10% real + 90% synthetic)
 
 | Dataset | Lr Schd(Epoch) | Real test-set box AP(vehicle) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: |
