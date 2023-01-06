@@ -75,6 +75,47 @@ data
 			└XX_XX_TXWX_XX_XXX_REXX_XXX.png
 ```
 
+Change tools/dataset_converters/morai.py if categories are different:
+```
+…
+categories = [
+        {"id": 1, "name": "vehicle"},
+        {"id": 2, "name": "bus"},
+        {"id": 3, "name": "truck"},
+        {"id": 4, "name": "policeCar"},
+        {"id": 5, "name": "ambulance"},
+        {"id": 6, "name": "schoolBus"},
+        {"id": 7, "name": "otherCar"},
+        {"id": 8, "name": "motorcycle"},
+        {"id": 9, "name": "bicycle"},
+        {"id": 10, "name": "twoWheeler"},
+        {"id": 11, "name": "pedestrian"},
+        {"id": 12, "name": "rider"},
+        {"id": 13, "name": "freespace"},
+        {"id": 14, "name": "curb"},
+        {"id": 15, "name": "sidewalk"},
+        {"id": 16, "name": "crossWalk"},
+        {"id": 17, "name": "safetyZone"},
+        {"id": 18, "name": "speedBump"},
+        {"id": 19, "name": "roadMark"},
+        {"id": 20, "name": "whiteLane"},
+        {"id": 21, "name": "yellowLane"},
+        {"id": 22, "name": "blueLane"},
+        {"id": 23, "name": "redLane"},
+        {"id": 24, "name": "stopLane"},
+        {"id": 25, "name": "trafficSign"},
+        {"id": 26, "name": "trafficLight"},
+        {"id": 27, "name": "constructionGuide"},
+        {"id": 28, "name": "trafficDrum"},
+        {"id": 29, "name": "rubberCone"},
+        {"id": 30, "name": "warningTriangle"},
+        {"id": 31, "name": "fence"},
+        {"id": 32, "name": "egoVehicle"},
+        {"id": 33, "name": "background"}
+    ]
+…
+```
+
 Then, run:
 ```
 pip install tqdm # If not installed
