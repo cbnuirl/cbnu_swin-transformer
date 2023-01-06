@@ -41,6 +41,7 @@ sudo docker run (--gpus all) --shm-size=8g –it –v —name {CONTAINER_NAME} \
 ```
 
 --gpus all for multi-GPU. Exclude when using single-GPU.
+
 If you want to change into container bash:
 ```
 sudo docker start {CONTAINER_NAME}
