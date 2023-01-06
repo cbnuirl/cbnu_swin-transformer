@@ -116,6 +116,19 @@ categories = [
 …
 ```
 
+Change mmdet/datasets/coco.py CLASSES:
+```
+…
+CLASSES = ('vehicle', 'bus', 'truck', 'policeCar', 'ambulance',
+		'schoolBus', 'otherCar', 'motorcycle', 'bicycle', 'twoWheeler',
+		'pedestrian', 'rider', 'freespace', 'curb', 'sidewalk',
+		'crossWalk', 'safetyZone', 'speedBump', 'roadMark', 'whiteLane',
+		'yellowLane', 'blueLane', 'redLane', 'stopLane', 'trafficSign',
+		'trafficLight', 'constructionGuide', 'trafficDrum', 'rubberCone', 'warningTriangle',
+		'fence', 'egoVehicle', 'background')
+…
+```
+
 Then, run:
 ```
 pip install tqdm # If not installed
