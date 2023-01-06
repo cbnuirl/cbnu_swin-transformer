@@ -102,13 +102,3 @@ python tools/train.py configs/swin/cascade_mask_rcnn_swin_base_patch4_window7_ms
 CUDA_VISIBLE_DEVICES=0,1,3 tools/dist_train.sh \
 configs/swin/cascade_mask_rcnn_swin_base_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py 3
 ```
-
-## Citing Swin Transformer
-```
-@article{liu2021Swin,
-  title={Swin Transformer: Hierarchical Vision Transformer using Shifted Windows},
-  author={Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and Zhang, Zheng and Lin, Stephen and Guo, Baining},
-  journal={arXiv preprint arXiv:2103.14030},
-  year={2021}
-}
-```
