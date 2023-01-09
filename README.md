@@ -43,13 +43,21 @@ Sejong BRT 1 Edge:
 | Sangam Edge | 36 | 70.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sangam_edge_mix.py) | [log](https://drive.google.com/file/d/1rURtq442otB0hqaN5oNsCmHtBXbGDW7x/view?usp=share_link) | [model] |
 | Sejong BRT 1 Edge | 36 | 64.8 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_edge_mix.py) | [log](https://drive.google.com/file/d/1CgcZwRIv16wBCu4D_ghDLHmwjA_XHR38/view?usp=share_link) | [model] |
 
+Daegu:
+
+![image](https://user-images.githubusercontent.com/121915405/211251727-ca996ab5-5484-418e-9a25-f9b4a897e523.png)
+
 Sejong BRT 1:
 
-![image](https://user-images.githubusercontent.com/121915405/210734549-9708315c-b365-4ef5-837c-e4f2d1ae4f15.png)
+![image](https://user-images.githubusercontent.com/121915405/211251746-64176f41-08e0-480b-9e2a-f5d03125b62d.png)
+
+Sangam Edge:
+
+![image](https://user-images.githubusercontent.com/121915405/211251782-926f66da-61c6-44a2-b001-8073e5dbd8fa.png)
 
 Sejong BRT 1 Edge:
 
-![image](https://user-images.githubusercontent.com/121915405/210734588-642aca3f-6813-4dc1-abff-4985e7d61db9.png)
+![image](https://user-images.githubusercontent.com/121915405/211251802-a35fcc7c-f2d3-4aac-ab4f-334a45f58ea3.png)
 
 ## Usage
 
