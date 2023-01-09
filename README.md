@@ -38,7 +38,9 @@ Sejong BRT 1 Edge:
 
 | Dataset | Lr Schd(Epoch) | Real test-set box AP(vehicle) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+| Daegu | 36 | 73.9 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu_mix.py) | [log](https://drive.google.com/file/d/1UnRdS_UCYOxJn9fRbo0nysfDdXcJ_lJY/view?usp=share_link) | [model] |
 | Sejong BRT 1 | 36 | 71.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_mix.py) | [log](https://drive.google.com/file/d/1GN7tjMUQcrCaEuRTJgSGp1AUAxbJCUvh/view?usp=share_link) | [model] |
+| Sangam Edge | 36 | 70.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sangam_edge_mix.py) | [log](https://drive.google.com/file/d/1rURtq442otB0hqaN5oNsCmHtBXbGDW7x/view?usp=share_link) | [model] |
 | Sejong BRT 1 Edge | 36 | 64.8 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_edge_mix.py) | [log](https://drive.google.com/file/d/1CgcZwRIv16wBCu4D_ghDLHmwjA_XHR38/view?usp=share_link) | [model] |
 
 Sejong BRT 1:
