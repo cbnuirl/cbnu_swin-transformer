@@ -6,7 +6,7 @@ This repository is based on [Swin-Transformer-Object-Detection](https://github.c
 
 ### Swin-L + FPN + Cascade R-CNN
 
-| Dataset | Lr Schd(Epoch) | box AP(vehicle) | config | log | model |
+| Dataset | Epoch | box AP(vehicle) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Real | 36 | 85.8 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_real.py) | [log](https://drive.google.com/file/d/15eQNQVo6GkVEQruNnyGUa1vfqzQ_HPZX/view?usp=share_link) | [model] |
 | Daegu | 36 | 68.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu.py) | [log](https://drive.google.com/file/d/1tYdIgFhjfbFgy4Hkm6ARBoFODyri2QdL/view?usp=share_link) | [model] |
@@ -36,7 +36,7 @@ Sejong BRT 1 Edge:
 
 ### Mixed Models(10% real + 90% synthetic)
 
-| Dataset | Lr Schd(Epoch) | Real test-set box AP(vehicle) | config | log | model |
+| Dataset | Epoch | Real test-set box AP(vehicle) | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | Daegu | 36 | 73.9 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_daegu_mix.py) | [log](https://drive.google.com/file/d/1UnRdS_UCYOxJn9fRbo0nysfDdXcJ_lJY/view?usp=share_link) | [model] |
 | Sejong BRT 1 | 36 | 71.3 | [config](configs/swin/cascade_mask_rcnn_swin_large_patch4_window7_mstrain_480-800_giou_4conv1f_adamw_3x_morai_sejong_1_mix.py) | [log](https://drive.google.com/file/d/1GN7tjMUQcrCaEuRTJgSGp1AUAxbJCUvh/view?usp=share_link) | [model] |
