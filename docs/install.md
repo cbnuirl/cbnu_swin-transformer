@@ -39,16 +39,19 @@ sudo docker build –t cbnuirl/swin_transf_cbnu:1.0 docker/
 
 ```
 sudo docker run (--gpus all) --name {CONTAINER_NAME} --shm-size=8g –it –v \
-{WORK_DIR}:/cbnu/Swin-Transformer-Object-Detection/ cbnuirl/swin_transf_cbnu:1.0
+{WORK_DIR}:/mmdetection/ cbnuirl/swin_transf_cbnu:1.0
 ```
 
 WORK_DIR is the path of cbnu_swin-transformer(/path/to/cbnu_swin-transformer)
 
 --gpus all for multi-GPU. Exclude when using single-GPU.
 
-## Install apex
+## Install other requirements
 
 ```
+pip install timm
+pip uninstall pycocotools
+pip install mmpycocotools
 git clone https://github.com/NVIDIA/apex
 cd apex
 pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
