@@ -44,7 +44,15 @@ WORK_DIR is the path of cbnu_swin-transformer(/path/to/cbnu_swin-transformer)
 
 --gpus all for multi-GPU. Exclude when using single-GPU.
 
-If you want to change into container bash:
+## Install apex
+
+```
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
+***NOTE***:If you want to change into container bash:
 ```
 sudo docker start {CONTAINER_NAME}
 sudo docker attach {CONTAINER_NAME}
