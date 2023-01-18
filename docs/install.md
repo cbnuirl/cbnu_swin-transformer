@@ -40,6 +40,8 @@ sudo docker run (--gpus all) --name {CONTAINER_NAME} --shm-size=8g –it –v \
 {WORK_DIR}:/mmdetection cbnuirl/swin_transf_cbnu:1.0
 ```
 
+WORK_DIR is the path of cbnu_swin-transformer
+
 --gpus all for multi-GPU. Exclude when using single-GPU.
 
 If you want to change into container bash:
