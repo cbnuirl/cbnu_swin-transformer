@@ -52,6 +52,8 @@ cd apex
 pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 ```
 
+This will take several minutes.
+
 ***NOTE***:If you want to change into container bash:
 ```
 sudo docker start {CONTAINER_NAME}
