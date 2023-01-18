@@ -52,9 +52,6 @@ WORK_DIR is the path of cbnu_swin-transformer(/path/to/cbnu_swin-transformer)
 pip install timm
 pip uninstall pycocotools
 pip install mmpycocotools
-git clone https://github.com/NVIDIA/apex
-cd apex
-pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 ```
 
 This will take several minutes.
