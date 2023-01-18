@@ -35,16 +35,24 @@ sudo docker rmi mmdetection:latest
 sudo docker build –t cbnuirl/swin_transf_cbnu:1.0 docker/
 ```
 
+## Install nvidia-container-toolkit
+
+```
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+&& curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
+&& curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+```
+
 ## Docker Container
 
 ```
-sudo docker run (--gpus all) --name {CONTAINER_NAME} --shm-size=8g –it –v \
+sudo docker run --gpus all --name {CONTAINER_NAME} --shm-size=8g –it –v \
 {WORK_DIR}:/mmdetection/ cbnuirl/swin_transf_cbnu:1.0
 ```
 
 WORK_DIR is the path of cbnu_swin-transformer(/path/to/cbnu_swin-transformer)
-
---gpus all for multi-GPU. Exclude when using single-GPU.
 
 ## Install other requirements
 
