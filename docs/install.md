@@ -25,8 +25,6 @@ cd cbnu_swin-transformer
 
 ```
 sudo docker load -i swin_transf_cbnu.tar
-sudo docker image tag mmdetection:latest cbnuirl/swin_transf_cbnu:1.0
-sudo docker rmi mmdetection:latest
 ```
 
 ### dockerfile
