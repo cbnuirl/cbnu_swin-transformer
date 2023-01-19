@@ -165,6 +165,17 @@ Save like 'cascade_mask_rcnn_swin_base_patch4_window7_mstrain_480-800_giou_4conv
 Revise content:
 ```
 …
+# # do not use mmdet version fp16
+# fp16 = None
+# optimizer_config = dict(
+#     type="DistOptimizerHook",
+#     update_interval=1,
+#     grad_clip=None,
+#     coalesce=True,
+#     bucket_size_mb=-1,
+#     use_fp16=True,
+# )
+…
 data_root = ‘data/{DATA_NAME}/’
 …
 data = dict(
