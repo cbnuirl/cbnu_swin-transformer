@@ -54,6 +54,16 @@ sudo docker run --gpus all --name {CONTAINER_NAME} --shm-size=8g –it –v \
 
 WORK_DIR is the path of cbnu_swin-transformer(/path/to/cbnu_swin-transformer)
 
+***NOTE***: If error install nvidia-container-toolkit
+
+```
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
+&& curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add - \
+&& curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+```
+
 ## Install other requirements
 
 ```
@@ -61,8 +71,6 @@ pip install timm
 pip uninstall pycocotools
 pip install mmpycocotools
 ```
-
-This will take several minutes.
 
 ***NOTE***:If you want to change into container bash:
 ```
